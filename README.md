@@ -2,6 +2,8 @@
 
 This repository contains the design and verification code for an **APB (Advanced Peripheral Bus) Slave** module using **SystemVerilog**. The project includes a testbench that simulates various read and write transactions, along with error detection mechanisms like address and data validation errors.
 
+EDA Playground: https://www.edaplayground.com/x/Sxgz
+
 ## APB Slave Design Overview
 
 The processor operates at a very high frequency and the external peripherals operate at a very low frequency, so to handle the transaction with them we use APB protocol. APB is not pipelined, and is a simple synchronous protocol. Every transfer takes at least two cycles to complete. APB interface is designed for accessing the programmable control registers of peripheral devices. APB peripherals also referred as completers, and are typically connected to the main memory using an APB bridge. APB transfers are initiated by an APB bridge, also referred as Requesters.
