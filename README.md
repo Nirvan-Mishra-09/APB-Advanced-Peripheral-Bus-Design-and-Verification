@@ -15,6 +15,9 @@ The APB Slave is designed to interact with a master (Verification Environment) v
 - **Memory storage** using a 16-entry deep, 8-bit wide memory.
 - **Error Detection**: Flags for address, address validation, and data errors.
 
+![image](https://github.com/user-attachments/assets/db2cd23a-9da4-4e6d-a216-ddebece10393)
+
+
 ## Testbench Overview
 
 The testbench is designed using **SystemVerilog classes** and contains the following components:
