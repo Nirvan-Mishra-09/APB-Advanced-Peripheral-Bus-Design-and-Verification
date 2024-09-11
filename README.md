@@ -50,4 +50,7 @@ The testbench is designed using **SystemVerilog classes** and contains the follo
 - **Scoreboard**: Compares the expected and actual results for validation.
 - **Generator**: Randomly generates transactions for stimulus.
 
+## Simulation
+
+![image](https://github.com/user-attachments/assets/deed1ea5-104d-4658-a969-c5c187eca8cc)
 
