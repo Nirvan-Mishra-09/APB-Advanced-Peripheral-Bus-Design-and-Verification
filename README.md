@@ -15,7 +15,8 @@ The APB Slave is designed to interact with a master (Verification Environment) v
 - **Memory storage** using a 16-entry deep, 8-bit wide memory.
 - **Error Detection**: Flags for address, address validation, and data errors.
 
-![image](https://github.com/user-attachments/assets/db2cd23a-9da4-4e6d-a216-ddebece10393)
+![image](https://github.com/user-attachments/assets/6abb49db-1ad3-429d-b1b8-9c070e0eec22)
+
 
 Here's a **Signal Description** section formatted for your GitHub repository's README:
 
