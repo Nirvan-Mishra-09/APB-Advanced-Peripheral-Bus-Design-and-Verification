@@ -4,7 +4,7 @@ This repository contains the design and verification code for an **APB (Advanced
 
 ## APB Slave Design Overview
 
-The processors operate at a very high frequency and the external peripherals operate at a very low frequency, so to handle the transaction with them we use APB protocol. APB is not pipelined, and is a simple synchronous protocol. Every transfer takes at least two cycles to complete. APB interface is designed for accessing the programmable control registers of peripheral devices. APB peripherals also referred as completers, and are typically connected to the main memory using an APB bridge. APB transfers are initiated by an APB bridge, also referred as Requesters.
+The processor operates at a very high frequency and the external peripherals operate at a very low frequency, so to handle the transaction with them we use APB protocol. APB is not pipelined, and is a simple synchronous protocol. Every transfer takes at least two cycles to complete. APB interface is designed for accessing the programmable control registers of peripheral devices. APB peripherals also referred as completers, and are typically connected to the main memory using an APB bridge. APB transfers are initiated by an APB bridge, also referred as Requesters.
 
 ![image](https://github.com/user-attachments/assets/0812e739-3bb1-4d6e-afc8-719caeb3ad00)
 
